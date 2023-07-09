@@ -1,31 +1,31 @@
 # Padrões de Projeto
 Este projeto implementa uma série de padrões de projeto em Java. Cada padrão de projeto é aplicado a um contexto específico e fornece soluções comprovadas para problemas recorrentes de design de software. Os padrões de projeto implementados neste projeto são:
 
-**Singleton:** Este padrão garante que uma classe tenha apenas uma instância e fornece um ponto de acesso global para essa instância.
+- **Singleton:** Este padrão garante que uma classe tenha apenas uma instância e fornece um ponto de acesso global para essa instância.
 
-**MVC (Model-View-Controller):** O padrão MVC separa a lógica de negócios (modelo), a apresentação (visualização) e a interação do usuário (controlador), permitindo uma melhor organização e manutenção do código.
+- **MVC (Model-View-Controller):** O padrão MVC separa a lógica de negócios (modelo), a apresentação (visualização) e a interação do usuário (controlador), permitindo uma melhor organização e manutenção do código.
 
-**Observer:** O padrão Observer define uma relação um-para-muitos entre objetos, de modo que quando um objeto muda de estado, todos os seus observadores são notificados e atualizados automaticamente.
+- **Observer:** O padrão Observer define uma relação um-para-muitos entre objetos, de modo que quando um objeto muda de estado, todos os seus observadores são notificados e atualizados automaticamente.
 
-**Prototype:** O padrão Prototype permite criar novos objetos por meio da clonagem de um objeto existente, evitando assim a criação direta de objetos e melhorando o desempenho.
+- **Prototype:** O padrão Prototype permite criar novos objetos por meio da clonagem de um objeto existente, evitando assim a criação direta de objetos e melhorando o desempenho.
 
-**Factory Method:** O padrão Factory Method fornece uma interface para criar objetos, mas permite que as subclasses decidam quais classes concretas instanciar.
+- **Factory Method:** O padrão Factory Method fornece uma interface para criar objetos, mas permite que as subclasses decidam quais classes concretas instanciar.
 
-**Template Method:** O padrão Template Method define o esqueleto de um algoritmo em uma classe base e permite que as subclasses substituam etapas específicas desse algoritmo sem alterar sua estrutura geral.
+- **Template Method:** O padrão Template Method define o esqueleto de um algoritmo em uma classe base e permite que as subclasses substituam etapas específicas desse algoritmo sem alterar sua estrutura geral.
 
-**Command:** O padrão Command encapsula uma solicitação como um objeto, permitindo que você parametrize clientes com diferentes solicitações, faça fila ou registre solicitações e suporte operações desfazer.
+- **Command:** O padrão Command encapsula uma solicitação como um objeto, permitindo que você parametrize clientes com diferentes solicitações, faça fila ou registre solicitações e suporte operações desfazer.
 
-**Builder:** O padrão Builder fornece uma maneira de construir objetos complexos passo a passo, permitindo que você crie diferentes representações do mesmo objeto.
+- **Builder:** O padrão Builder fornece uma maneira de construir objetos complexos passo a passo, permitindo que você crie diferentes representações do mesmo objeto.
 
-**State:** O padrão State permite que um objeto altere seu comportamento quando seu estado interno muda, encapsulando cada estado em uma classe separada e permitindo que o objeto mude de estado dinamicamente.
+- **State:** O padrão State permite que um objeto altere seu comportamento quando seu estado interno muda, encapsulando cada estado em uma classe separada e permitindo que o objeto mude de estado dinamicamente.
 
-**Visitor:** O padrão Visitor permite adicionar novas operações a uma hierarquia de classes sem modificar essas classes, separando as operações em classes visitantes.
+- **Visitor:** O padrão Visitor permite adicionar novas operações a uma hierarquia de classes sem modificar essas classes, separando as operações em classes visitantes.
 
-**Composite:** O padrão Composite agrupa objetos em uma estrutura de árvore, permitindo que os clientes tratem objetos individuais e composições de objetos de maneira uniforme.
+- **Composite:** O padrão Composite agrupa objetos em uma estrutura de árvore, permitindo que os clientes tratem objetos individuais e composições de objetos de maneira uniforme.
 
-**Decorator:** O padrão Decorator adiciona responsabilidades adicionais a um objeto de forma dinâmica, fornecendo uma alternativa flexível à criação de subclasses para estender funcionalidades.
+- **Decorator:** O padrão Decorator adiciona responsabilidades adicionais a um objeto de forma dinâmica, fornecendo uma alternativa flexível à criação de subclasses para estender funcionalidades.
 
-Estrutura do Projeto
+#Estrutura do Projeto
 O projeto está organizado em pacotes, cada um correspondendo a um padrão de projeto específico. Cada pacote contém as classes e interfaces relacionadas à implementação desse padrão de projeto.
 
 Os pacotes disponíveis são:
