@@ -25,7 +25,7 @@ Este projeto implementa uma série de padrões de projeto em Java. Cada padrão 
 
 - **Decorator:** O padrão Decorator adiciona responsabilidades adicionais a um objeto de forma dinâmica, fornecendo uma alternativa flexível à criação de subclasses para estender funcionalidades.
 
-#Estrutura do Projeto
+# Estrutura do Projeto
 O projeto está organizado em pacotes, cada um correspondendo a um padrão de projeto específico. Cada pacote contém as classes e interfaces relacionadas à implementação desse padrão de projeto.
 
 Os pacotes disponíveis são:
