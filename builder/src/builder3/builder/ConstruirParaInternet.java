@@ -10,6 +10,17 @@ public class ConstruirParaInternet extends ConstruirPessoa{
 	}
 	
 	@Override
+	public void construirEmail(String email) {
+		getPessoa().setEmail(email);
+	}
+	
+	@Override
+	public void construirEndereco(String endereco) {}
+	
+	@Override
+	public void construirTelefone(String telefone) {}
+	
+	@Override
 	public void reset() {
 		this.pessoa = new Pessoa();
 	}
