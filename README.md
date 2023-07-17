@@ -1,53 +1,52 @@
-# Padrões de Projeto
-Este projeto implementa uma série de padrões de projeto em Java. Cada padrão de projeto é aplicado a um contexto específico e fornece soluções comprovadas para problemas recorrentes de design de software. Os padrões de projeto implementados neste projeto são:
+# Design Patterns
+This project implements a series of design patterns in Java. Each design pattern is applied to a specific context and provides proven solutions to recurring software design problems. The design patterns implemented in this project are:
 
-- **Singleton:** Este padrão garante que uma classe tenha apenas uma instância e fornece um ponto de acesso global para essa instância.
+- **Singleton:** This pattern ensures that a class has only one instance and provides a global access point to that instance.
 
-- **MVC (Model-View-Controller):** O padrão MVC separa a lógica de negócios (modelo), a apresentação (visualização) e a interação do usuário (controlador), permitindo uma melhor organização e manutenção do código.
+- **MVC (Model-View-Controller):** The MVC pattern separates the business logic (model), presentation (view), and user interaction (controller), allowing for better organization and code maintenance.
 
-- **Observer:** O padrão Observer define uma relação um-para-muitos entre objetos, de modo que quando um objeto muda de estado, todos os seus observadores são notificados e atualizados automaticamente.
+- **Observer:** The Observer pattern defines a one-to-many relationship between objects, so that when an object changes its state, all its observers are notified and updated automatically.
 
-- **Prototype:** O padrão Prototype permite criar novos objetos por meio da clonagem de um objeto existente, evitando assim a criação direta de objetos e melhorando o desempenho.
+- **Prototype:** The Prototype pattern allows creating new objects by cloning an existing object, thereby avoiding direct object creation and improving performance.
 
-- **Factory Method:** O padrão Factory Method fornece uma interface para criar objetos, mas permite que as subclasses decidam quais classes concretas instanciar.
+- **Factory Method:** The Factory Method pattern provides an interface for creating objects but lets subclasses decide which concrete classes to instantiate.
 
-- **Template Method:** O padrão Template Method define o esqueleto de um algoritmo em uma classe base e permite que as subclasses substituam etapas específicas desse algoritmo sem alterar sua estrutura geral.
+- **Template Method:** The Template Method pattern defines the skeleton of an algorithm in a base class and allows subclasses to override specific steps of that algorithm without changing its overall structure.
 
-- **Command:** O padrão Command encapsula uma solicitação como um objeto, permitindo que você parametrize clientes com diferentes solicitações, faça fila ou registre solicitações e suporte operações desfazer.
+- **Command:** The Command pattern encapsulates a request as an object, allowing you to parameterize clients with different requests, queue or log requests, and support undo operations.
 
-- **Builder:** O padrão Builder fornece uma maneira de construir objetos complexos passo a passo, permitindo que você crie diferentes representações do mesmo objeto.
+- **Builder:** The Builder pattern provides a way to construct complex objects step by step, allowing you to create different representations of the same object.
 
-- **State:** O padrão State permite que um objeto altere seu comportamento quando seu estado interno muda, encapsulando cada estado em uma classe separada e permitindo que o objeto mude de estado dinamicamente.
+- **State:** The State pattern allows an object to change its behavior when its internal state changes, encapsulating each state in a separate class and allowing the object to change state dynamically.
 
-- **Visitor:** O padrão Visitor permite adicionar novas operações a uma hierarquia de classes sem modificar essas classes, separando as operações em classes visitantes.
+- **Visitor:** The Visitor pattern allows adding new operations to a class hierarchy without modifying those classes, by separating the operations into visitor classes.
 
-- **Composite:** O padrão Composite agrupa objetos em uma estrutura de árvore, permitindo que os clientes tratem objetos individuais e composições de objetos de maneira uniforme.
+- **Composite:** The Composite pattern groups objects into a tree structure, allowing clients to treat individual objects and compositions of objects uniformly.
 
-- **Decorator:** O padrão Decorator adiciona responsabilidades adicionais a um objeto de forma dinâmica, fornecendo uma alternativa flexível à criação de subclasses para estender funcionalidades.
+- **Decorator:** The Decorator pattern dynamically adds additional responsibilities to an object, providing a flexible alternative to subclassing for extending functionalities.
 
-# Estrutura do Projeto
-O projeto está organizado em pacotes, cada um correspondendo a um padrão de projeto específico. Cada pacote contém as classes e interfaces relacionadas à implementação desse padrão de projeto.
+# Project Structure
+The project is organized into packages, each corresponding to a specific design pattern. Each package contains the classes and interfaces related to the implementation of that design pattern.
 
-Os pacotes disponíveis são:
+The available packages are:
 
-- singleton: Implementação do padrão Singleton.
-- mvc: Implementação do padrão MVC.
-- observer: Implementação do padrão Observer.
-- prototype: Implementação do padrão Prototype.
-- factorymethod: Implementação do padrão Factory Method.
-- templatemethod: Implementação do padrão Template Method.
-- command: Implementação do padrão Command.
-- builder: Implementação do padrão Builder.
-- state: Implementação do padrão State.
-- visitor: Implementação do padrão Visitor.
-- composite: Implementação do padrão Composite.
-- decorator: Implementação do padrão Decorator.
+- singleton: Implementation of the Singleton pattern.
+- mvc: Implementation of the MVC pattern.
+- observer: Implementation of the Observer pattern.
+- prototype: Implementation of the Prototype pattern.
+- factorymethod: Implementation of the Factory Method pattern.
+- templatemethod: Implementation of the Template Method pattern.
+- command: Implementation of the Command pattern.
+- builder: Implementation of the Builder pattern.
+- state: Implementation of the State pattern.
+- visitor: Implementation of the Visitor pattern.
+- composite: Implementation of the Composite pattern.
+- decorator: Implementation of the Decorator pattern.
+# How to Run
+- Clone this repository.
+- Open the project in your preferred IDE.
+- Navigate to the main class related to the design pattern you want to run.
+- Run the main class to see the demonstration of the design pattern in action.
+- Feel free to explore the source code in each package and study the implementations in detail.
 
-# Como Executar
-- Clone este repositório.
-- Abra o projeto em sua IDE preferida.
-- Navegue até a classe principal relacionada ao padrão de projeto que deseja executar.
-- Execute a classe principal para ver a demonstração do padrão de projeto em ação.
-- Sinta-se à vontade para explorar o código-fonte em cada pacote e estudar as implementações detalhadamente.
-
-Espero que este projeto seja útil para entender e aplicar os padrões de projeto mencionados. Fique à vontade para contribuir, fornecer feedback ou fazer melhorias adicionais. Divirta-se explorando os padrões de projeto!
+I hope this project is useful for understanding and applying the mentioned design patterns. Feel free to contribute, provide feedback, or make additional improvements. Have fun exploring the design patterns!
